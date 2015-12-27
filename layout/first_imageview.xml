@@ -6,10 +6,19 @@
     android:orientation="vertical">
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:src="@drawable/abc_ic_menu_cut_mtrl_alpha"/>
+        android:id="@+id/imageView1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#00FF00"
+        android:src="@drawable/ic_launcher"
+        android:scaleType="fitXY"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#FF0000"
+        android:src="@drawable/machine_learning"
+        android:scaleType="fitXY"/>
 
 </LinearLayout>
